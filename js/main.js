@@ -130,7 +130,7 @@ $("#projects .swiper-slide a").on("click", function (e) {
     var idx = mySwiper.realIndex;
 
     $.ajax({
-        url: "../../lib/projects.json",
+        url: "../lib/projects.json",
         dattype: "json",
         success: function (data) {
             if (data.length > 0) {

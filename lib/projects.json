@@ -2,7 +2,7 @@
     {
         "status": "오픈 준비중",
         "name": "비디코리아",
-        "thumbnail": "./../img/bdkorea_full.jpg",
+        "thumbnail": "../img/bdkorea_full.jpg",
         "intro": "반응형, 인터랙티브 웹 | 퍼블리싱 기여도 100%",
         "period": "2021.11 ~ 2022.01",
         "description": "- 상품 선택 옵션에 따른 제품 미리보기 기능 작업",
@@ -13,7 +13,7 @@
     {
         "status": "오픈 준비중",
         "name": "제니하우스",
-        "thumbnail": "./../img/jennyhouse_full.jpg",
+        "thumbnail": "../img/jennyhouse_full.jpg",
         "intro": "반응형 웹 | 퍼블리싱 기여도 100%",
         "period": "2021.09 ~ 2021.10",
         "description": "- 운영&유지보수를 위한 Component 규격화 작업",
@@ -24,7 +24,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "겜우리",
-        "thumbnail": "./../img/gamewoori_full.jpg",
+        "thumbnail": "../img/gamewoori_full.jpg",
         "intro": "반응형 웹 | 퍼블리싱 기여도 100%",
         "period": "2021.07 ~ 2021.08",
         "description": "- 프로젝트 제작 및 서버 장애 대응 / CS 담당",
@@ -35,7 +35,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "샬레코리아",
-        "thumbnail": "./../img/chaletkorea_full.jpg",
+        "thumbnail": "../img/chaletkorea_full.jpg",
         "intro": "반응형, 인터랙티브 웹 | 퍼블리싱 기여도 100%",
         "period": "2021.07 ~ 2021.08",
         "description": "",
@@ -46,7 +46,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "디자인벤처스",
-        "thumbnail": "./../img/designventures_full.jpg",
+        "thumbnail": "../img/designventures_full.jpg",
         "intro": "반응형 웹 | 퍼블리싱 기여도 100%",
         "period": "2021.04 ~ 2021.04",
         "description": "",
@@ -57,7 +57,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "여기서해",
-        "thumbnail": "./../img/dohere_full.jpg",
+        "thumbnail": "../img/dohere_full.jpg",
         "intro": "반응형 웹 | 퍼블리싱 기여도 100%",
         "period": "2021.03 ~ 2021.03",
         "description": "- 선택한 상품에 따라 실시간 예상 견적 확인 가능한 페이지 및 게시판 연동형 모달창 작업",
@@ -68,7 +68,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "탐라포차",
-        "thumbnail": "./../img/tamra_full.jpg",
+        "thumbnail": "../img/tamra_full.jpg",
         "intro": "반응형, 인터랙티브 웹 | 퍼블리싱 기여도 100%",
         "period": "2021.02 ~ 2021.02",
         "description": "- 사이트 전반 애니메이션 작업 / 네이버 지도 API 연동형 게시판 작업",
@@ -79,7 +79,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "민커뮤니케이션",
-        "thumbnail": "./../img/mincom_full.jpg",
+        "thumbnail": "../img/mincom_full.jpg",
         "intro": "반응형 웹, 풀 하드코딩 | 퍼블리싱 기여도 100%",
         "period": "2020.12 ~ 2020.12",
         "description": "",
@@ -90,7 +90,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "차이나링크",
-        "thumbnail": "./../img/chinalink_full.jpg",
+        "thumbnail": "../img/chinalink_full.jpg",
         "intro": "반응형, 인터랙티브 웹, 풀 하드코딩 | 퍼블리싱 기여도 100%",
         "period": "2020.11 ~ 2020.11",
         "description": "",
@@ -101,7 +101,7 @@
     {
         "status": "홈페이지 운영중",
         "name": "한국야쿠르트",
-        "thumbnail": "./../img/hylabs_full.jpg",
+        "thumbnail": "../img/hylabs_full.jpg",
         "intro": "반응형, 인터랙티브 웹 | 퍼블리싱 기여도 100%",
         "period": "2020.05 ~ 2020.05",
         "description": "- 2021 GDWEB DESIGN AWARDS 수상",
