@@ -6,24 +6,29 @@ var cursorScale = document.querySelectorAll(".cursor-scale");
 var mouseX = 0;
 var mouseY = 0;
 
-gsap.to({}, 0.016, {
-    repeat: -1,
-    onRepeat: function () {
-        gsap.set(cursor, {
-            css: {
-                left: mouseX,
-                top: mouseY,
-            },
-        });
-    },
-});
+if (window.innerWidth >= 768) {
+    gsap.to({}, 0.016, {
+        repeat: -1,
+        onRepeat: function () {
+            gsap.set(cursor, {
+                css: {
+                    left: mouseX,
+                    top: mouseY,
+                },
+            });
+        },
+    });
 
-window.addEventListener("mousemove", (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-});
+    window.addEventListener("mousemove", (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+    });
+}
 
 cursorScale.forEach((link) => {
+    if (window.innerWidth < 768) {
+        return;
+    }
     link.addEventListener("mousemove", (e) => {
         cursor.classList.add("grow");
         if (link.classList.contains("small")) {
@@ -154,7 +159,8 @@ $("#projects .swiper-slide a").on("click", function (e) {
 
 //모바일 헤더 스크립트
 $(window).on("load, resize", function () {
-    if (document.clientWidth >= 768) {
+    if (window.innerWidth < 768) {
+        return;
     }
 });
 //modalImg 높이값이 변함에 따라 $(document).on 메서드를 이용하여 mouseenter 기준으로 높이값을 변수에 저장

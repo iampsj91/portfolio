@@ -51,7 +51,7 @@
 
 @media (max-width: 768px) {
     .cursor {
-        /* display: none !important; */
+        display: none !important;
     }
 
     .mbr {
@@ -283,6 +283,11 @@
     }
     .allLeft .snsIcon li img {
         width: 20px;
+    }
+    .allLeft .circle {
+        width: 44vw;
+        height: 44vw;
+        right: -7.5vw;
     }
     .allClose {
         z-index: 2;
