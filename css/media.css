@@ -8,6 +8,9 @@
 
 @media (max-width: 1400px) {
     #about .about_info_wrap .about_txtWrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     #about .about_info_wrap .about_txtWrap ul {
@@ -40,6 +43,7 @@
     }
 
     .swiper-container .swiper-slide .project_txtBox img {
+        -webkit-filter: drop-shadow(0px 0px 5px #000);
         filter: drop-shadow(0px 0px 5px #000);
     }
 
@@ -146,6 +150,9 @@
     }
 
     #about .about_info_wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -166,6 +173,8 @@
         position: static;
         top: auto;
         left: auto;
+        -webkit-transform: none;
+        -ms-transform: none;
         transform: none;
         margin: 0 0 -25px;
         width: 100%;
@@ -208,6 +217,9 @@
     }
 
     .modalWrap .modalCover .modalBox {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -218,6 +230,8 @@
     .modalWrap .modalCover .modalBox .modalTxtbox {
         width: 100%;
         padding: 30px 15px;
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
         order: -1;
     }
 
@@ -251,6 +265,9 @@
         right: 10px;
     }
     .allMenu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .allLeft {
@@ -271,6 +288,8 @@
     .allRight {
         width: 100%;
         height: 50%;
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
         order: -1;
     }
     .allLeft .allTitle {
