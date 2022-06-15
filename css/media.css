@@ -84,8 +84,9 @@
     }
 
     .section_title::before {
-        top: 2px;
-        left: 2px;
+        top: -8px;
+        left: 10px;
+        font-size: 10px;
     }
 
     .deco_text {
@@ -277,6 +278,9 @@
     }
     .allLeft .allTitle span {
         font-size: 3vw;
+    }
+    .allLeft .allsubTitle {
+        font-size: 12px;
     }
     .allLeft .snsIcon li + li {
         margin-left: 20px;
