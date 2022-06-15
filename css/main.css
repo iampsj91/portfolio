@@ -564,7 +564,7 @@ section .circle {
 #contact .contact_ul li a {
     color: #d8d8d8;
     display: block;
-    background: url(./img/contact_arrow.png) no-repeat right center;
+    background: url(../img/contact_arrow.png) no-repeat right center;
 }
 
 #contact .contact_ul li:after {
@@ -818,7 +818,7 @@ footer .container {
     top: 50%;
     right: -4.2vw;
     transform: translateY(-50%);
-    background: url(./img/allCircle.png) no-repeat center / cover;
+    background: url(../img/allCircle.png) no-repeat center / cover;
     opacity: 0;
 }
 .allMenu.on .circle {
@@ -826,7 +826,7 @@ footer .container {
 }
 .allRight {
     width: 42%;
-    /* background: url(./img/allRight_bg.jpg) no-repeat center / cover; */
+    /* background: url(../img/allRight_bg.jpg) no-repeat center / cover; */
     display: flex;
     align-items: center;
     justify-content: center;
