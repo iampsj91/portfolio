@@ -23,7 +23,7 @@
         <header>
             <div class="container">
                 <div class="portfolio_name cursor-scale small">FOLIO/22</div>
-                <div class="menuBtn">
+                <div class="menuBtn" onclick="allMenu();">
                     <span></span>
                     <span></span>
                 </div>
@@ -466,6 +466,59 @@
                 </div>
             </div>
         </div>
+        <div class="allMenu">
+            <div class="allClose" onclick="allMenu();">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="allLeft">
+                <div class="allLeft_inner">
+                    <div class="circle"></div>
+                    <div class="allTitle">
+                        SUNG JUN
+                        <span>@2022</span>
+                    </div>
+                    <p class="allsubTitle">
+                        Do not be afraid to give up the good to go for the great<br />
+                        <span>-John D.Rockerfeller -</span>
+                    </p>
+                    <ul class="snsIcon">
+                        <li>
+                            <a href=""><img src="/img/sns01.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/img/sns02.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/img/sns03.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/img/sns04.png" alt="" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="allRight">
+                <nav>
+                    <a href="#intro" onclick="allMenu();">
+                        <span class="navNum">01</span>
+                        INTRO
+                    </a>
+                    <a href="#projects" onclick="allMenu();">
+                        <span class="navNum">02</span>
+                        PROJECTS
+                    </a>
+                    <a href="#about" onclick="allMenu();">
+                        <span class="navNum">03</span>
+                        ABOUT
+                    </a>
+                    <a href="#contact" onclick="allMenu();">
+                        <span class="navNum">04</span>
+                        CONTACT
+                    </a>
+                </nav>
+            </div>
+        </div>
         <div class="imagePreload">
             <img src="/img/bdkorea_full.jpg" alt="" />
             <img src="/img/jennyhouse_full.jpg" alt="" />
@@ -480,6 +533,5 @@
         </div>
         <!-- 메인 스크립트 -->
         <script src="/js/main.js"></script>
-        <script src="/js/ajax.js"></script>
     </body>
 </html>

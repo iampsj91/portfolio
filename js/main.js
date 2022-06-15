@@ -52,6 +52,11 @@ cursorScale.forEach((link) => {
     });
 });
 
+//전체메뉴
+function allMenu() {
+    $(".allMenu").toggleClass("on");
+}
+
 /* ----- 공통 끝 ----- */
 
 /* -----intro 시작 ----- */
@@ -81,7 +86,7 @@ function text_ani() {
 text_ani();
 
 //anchor 페이지 이동 스크립트
-$(".anchor li a, .scrollbtn").on("click", function (e) {
+$(".anchor li a, .scrollbtn, .allRight nav a").on("click", function (e) {
     e.preventDefault();
     var id = $(this).attr("href");
     var $id = $(id).offset().top;
