@@ -60,6 +60,12 @@ cursorScale.forEach((link) => {
 //전체메뉴
 function allMenu() {
     $(".allMenu").toggleClass("on");
+
+    if ($(".allMenu").hasClass("on")) {
+        $("html,body").css("overflow", "hidden");
+    } else {
+        $("html,body").css("overflow", "visible");
+    }
 }
 
 /* ----- 공통 끝 ----- */
