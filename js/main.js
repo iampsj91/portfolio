@@ -163,12 +163,6 @@ $("#projects .swiper-slide a").on("click", function (e) {
     });
 });
 
-//모바일 헤더 스크립트
-$(window).on("load, resize", function () {
-    if (window.innerWidth < 768) {
-        return;
-    }
-});
 //modalImg 높이값이 변함에 따라 $(document).on 메서드를 이용하여 mouseenter 기준으로 높이값을 변수에 저장
 $(document).on("mouseenter", ".modalImg", function () {
     if (window.innerWidth < 768) {
