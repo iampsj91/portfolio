@@ -656,6 +656,10 @@ section .circle {
     margin-top: 10px;
 }
 
+#about .about_info_wrap .about_txtWrap .fix {
+    margin-left:63px;
+}
+
 #about .about_info_wrap .about_txtWrap .academy_name {
     margin-left: 169px;
 }
